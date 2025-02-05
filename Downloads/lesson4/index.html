@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Селектори</title>
+    <link rel="stylesheet" href="styles/index.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <body>
+            <nav>
+                <ul>
+                    <li><a href="/pages/articles.html">Articles</a></li>
+                    <li><a href="/pages/catalog.html">catalog</a></li>
+                    <li><a href="/pages/contacts.html">Contacts</a></li>
+                    <li><a href="/pages/gallery.html">Gallery</a></li>
+                    <li><a href="/pages/page-nav.html">Page-nav</a></li>
+                    <li><a href="/pages/registration.html">Registration</a></li>
+                    <li><a href="/index.html"class="active">index</a></li>
+                </ul>
+            </nav>
+         </body>
+    </div>
+    <div>Тег: div — Це просто блок, який задає загальний фон для всіх div елементів.</div>
+    <div class="red">Клас: .red — Цей елемент використовує клас red для кольору фону.</div>
+    <div id="unique">ID: #unique — Цей елемент має унікальний ID, що дозволяє застосовувати стилі до нього з великою специфічністю.</div>
+    <a href="#" title="link">Атрибут: [title] — Лінк, у якого є атрибут title для додаткової інформації.</a>
+    <div class="parent">
+    <p class="child">Вкладений селектор: p всередині div — Це параграф, що знаходиться всередині div елемента.</p>
+    </div>
+    <div class="parent">
+    <span class="child">Дочірній селектор: span всередині div — Цей span є дочірнім елементом div, і отримує особливі стилі.</span>
+    </div>
+    <div>Тег div + p:</div>
+    <p class="sequence">Послідовність селекторів: p після div — Параграф, що слідує після div елемента.</p>
+    <div class="green">Тег і клас: div.green — Цей div має клас green і спеціальний колір фону.</div>
+    <a href="#" title="another link">Тег і атрибут: a[title] — Цей лінк має атрибут title, що застосовує стилі до елемента.</a>
+    <div id="special" class="highlight">Комбінація селекторів: div#special.highlight — Цей div має ID special і клас highlight, що надає йому унікальний стиль.</div>
+</body>
+</html>

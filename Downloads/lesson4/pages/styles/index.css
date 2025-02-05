@@ -1,0 +1,56 @@
+div {
+    background-color: #FF6347;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+}
+.red {
+    background-color: #FF4500;
+    color: white;
+    padding: 10px;
+}
+#unique {
+    background-color: #32CD32;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+}
+a[title] {
+    background-color: #FFD700;
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+div>p {
+    background-color: #8A2BE2;
+    color: white;
+    padding: 10px;
+}
+div .child {
+    background-color: #FFD700;
+    color: black;
+    padding: 5px 10px;
+}
+div+p {
+    background-color: #FF4500;
+    color: white;
+    padding: 10px;
+    margin-top: 5px;
+}
+div.green {
+    background-color: #228B22;
+    color: white;
+    padding: 10px;
+}
+a[title] {
+    background-color: #7FFF00;
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+div#special.highlight {
+    background-color: #DC143C;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+}
